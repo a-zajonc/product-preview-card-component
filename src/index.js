@@ -3,6 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { extendTheme } from "@chakra-ui/react"
+
+export const theme = extendTheme({
+  fonts: {
+    heading: "Montserrat",
+    body: "Fraunces",
+  },
+})
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

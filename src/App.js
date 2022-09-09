@@ -1,10 +1,8 @@
-import { Button } from 'react-bootstrap';
 import './App.css';
+import { PreviewCard } from './Preview Card';
 
 function App() {
-  return <div>
-    <Button>Hello</Button>
-  </div>
+  return <PreviewCard />
 }
 
 export default App;

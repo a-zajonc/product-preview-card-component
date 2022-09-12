@@ -5,13 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { extendTheme } from "@chakra-ui/react"
 
-export const theme = extendTheme({
-  fonts: {
-    // heading: "Montserrat",
-    heading: "Fraunces Black",
-    body: 'Montserrat'
-  },
-})
+const breakpoints = {
+  sm: '376px',
+  xl: '1440px',
+  '2xl': '1536px',
+}
+
+export const theme = extendTheme({ breakpoints })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -7,7 +7,7 @@ export function AddToCart() {
         bgColor: "#1a4031",
     }}>
         <Img src="icons8-shopping-cart-24.png" alt="Shopping cart" height="17px" />
-        <Text color="white" fontFamily="Montserrat" fontSize="14" p="3">
+        <Text color="white" fontFamily="Montserrat" fontWeight="700" fontSize="14" p="3">
             Add to Cart
         </Text>
     </Button>

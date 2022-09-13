@@ -10,7 +10,7 @@ export function ProductImage() {
         '2xl': 'image-product-desktop.jpg'
     })
 
-    return <Img
+    return <Img objectFit="cover"
         src={responsiveImg}
         width={{ base: "350px", sm: "350px", xl: "298px" }}
         height={{ base: "240px", sm: "340px", xl: "450px", }}

@@ -10,13 +10,13 @@ export function ProductInformation() {
 
     return <Box
         bg="white"
-        width={{ base: "350px", desktop: "298px" }}
-        height={{ base: "390px", desktop: "450px" }}
-        borderTopRightRadius={{ base: "0px", desktop: "10px" }}
-        borderBottomRightRadius={{ base: "10px", desktop: "10px" }}
-        borderBottomLeftRadius={{ base: "10px", desktop: "0px" }}
+        width={{ base: "350px", sm: "350px", xl: "298px" }}
+        height={{ base: "390px", sm: "420px", xl: "450px" }}
+        borderTopRightRadius={{ base: "0px", xl: "10px" }}
+        borderBottomRightRadius={{ base: "10px", xl: "10px" }}
+        borderBottomLeftRadius={{ base: "10px", xl: "0px" }}
     >
-        <Container width="100%" height="100%" p={{ base: "5", desktop: "9" }} display="grid" alignContent="space-between">
+        <Container width="100%" height="100%" p={{ base: "5", xl: "9" }} display="grid" alignContent="space-between">
             <ProductCategory />
             <ProductName />
             <ProductDescription />

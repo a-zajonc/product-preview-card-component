@@ -1,5 +1,5 @@
 import './App.css';
-import { ChakraProvider, Box, Center } from '@chakra-ui/react'
+import { ChakraProvider, Box } from '@chakra-ui/react'
 import { PreviewCard } from './Preview Card';
 import { theme } from '.';
 

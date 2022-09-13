@@ -3,7 +3,7 @@ import { ProductImage } from "./Image";
 import { ProductInformation } from "./ProductInformation";
 
 export function PreviewCard() {
-    return <Center display="flex" flexDirection={{ base: "column", sm: "row" }}>
+    return <Center display="flex" flexDirection={{ base: "column", sm: "column", xl: "row" }}>
         <ProductImage />
         <ProductInformation />
     </Center>

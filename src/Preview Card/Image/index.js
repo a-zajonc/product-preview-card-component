@@ -3,17 +3,20 @@ import { Img, useBreakpointValue } from "@chakra-ui/react";
 export function ProductImage() {
 
     const responsiveImg = useBreakpointValue({
-        desktop: 'image-product-desktop.jpg',
-        base: 'image-product-mobile.jpg'
+        base: 'image-product-mobile.jpg',
+        sm: 'image-product-mobile.jpg',
+        md: 'image-product-mobile.jpg',
+        xl: 'image-product-desktop.jpg',
+        '2xl': 'image-product-desktop.jpg'
     })
 
     return <Img
         src={responsiveImg}
-        width={{ base: "350px", desktop: "298px" }}
-        height={{ base: "240px", desktop: "450px", }}
-        borderTopLeftRadius={{ base: "10", desktop: "10" }}
-        borderBottomLeftRadius={{ base: "0", desktop: "10" }}
-        borderTopRightRadius={{ base: "10", desktop: "0" }}
-        p={{ base: "0", desktop: "0" }}>
+        width={{ base: "350px", sm: "350px", xl: "298px" }}
+        height={{ base: "240px", sm: "340px", xl: "450px", }}
+        borderTopLeftRadius={{ base: "10", sm: "10", xl: "10" }}
+        borderBottomLeftRadius={{ base: "0", sm: "0", xl: "10" }}
+        borderTopRightRadius={{ base: "10", sm: "10", xl: "0" }}
+    >
     </Img>
 }

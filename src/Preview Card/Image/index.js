@@ -9,9 +9,11 @@ export function ProductImage() {
 
     return <Img
         src={responsiveImg}
-        width={{ base: "350px", destkop: "298px" }}
-        height={{ base: "220px", desktop: "450px", }}
-        borderLeftRadius={{ base: "0", desktop: "10" }}
-        borderTopRadius={{ base: "10", desktop: "0" }}>
+        width={{ base: "350px", desktop: "298px" }}
+        height={{ base: "240px", desktop: "450px", }}
+        borderTopLeftRadius={{ base: "10", desktop: "10" }}
+        borderBottomLeftRadius={{ base: "0", desktop: "10" }}
+        borderTopRightRadius={{ base: "10", desktop: "0" }}
+        p={{ base: "0", desktop: "0" }}>
     </Img>
 }

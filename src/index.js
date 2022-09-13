@@ -6,8 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { extendTheme } from "@chakra-ui/react"
 
 const breakpoints = {
-  sm: '376px',
-  xl: '1440px',
+  desktop: '376px',
   '2xl': '1536px',
 }
 

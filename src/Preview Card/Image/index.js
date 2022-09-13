@@ -10,7 +10,7 @@ export function ProductImage() {
         '2xl': 'image-product-desktop.jpg'
     })
 
-    return <Img objectFit="cover"
+    return <Img objectFit="cover" alt="Zdjęcie perfum Chanel"
         src={responsiveImg}
         width={{ base: "350px", sm: "350px", xl: "298px" }}
         height={{ base: "240px", sm: "340px", xl: "450px", }}

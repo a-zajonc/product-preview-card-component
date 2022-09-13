@@ -5,10 +5,9 @@ import { theme } from '.';
 
 function App() {
   return <ChakraProvider theme={theme}>
-    <Box height="100%" witdh="100%" bgColor="#F2EBE3">
+    <Box height="100%" witdh="100%" bgColor="#F2EBE3" p="5">
       <PreviewCard />
     </Box>
-
   </ChakraProvider>
 }
 

@@ -1,5 +1,7 @@
-import { Img } from "@chakra-ui/react"
 
 export function ProductImage() {
-    return <Img src="image-product-desktop.jpg" width="298px" height="450px" borderLeftRadius="10"></Img>
+    return <picture>
+        <source srcSet="image-product-desktop.jpg" media="(min-width: 376px)" />
+        <img src="image-product-mobile.jpg" alt="" width="300px" height="450px" style={{ borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px" }} />
+    </picture>
 }
